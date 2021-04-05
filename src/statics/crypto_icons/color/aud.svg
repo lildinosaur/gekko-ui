@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Icons/USD</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/USD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Add">
+            <rect id="矩形" x="0" y="0" width="24" height="24"></rect>
+        </g>
+        <g id="BTC">
+            <path d="M23.3487374,14.8311256 L23.3487585,14.8310411 C24.9126132,8.56298903 21.0979647,2.21533588 14.8290301,0.650735252 C8.56252861,-0.913258119 2.21535574,2.90155831 0.65090881,9.17046299 C-0.913241669,15.4381797 2.89934061,21.7845246 9.1684558,23.3485859 C15.4373181,24.9125841 21.7870003,21.0984323 23.3487374,14.8311256 Z" id="Path" stroke="#01081E" stroke-width="0.6"></path>
+            <text id="$" font-family="DINPro-Medium, DIN Pro" font-size="16" font-weight="400" fill="#01081E">
+                <tspan x="7" y="18">$</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

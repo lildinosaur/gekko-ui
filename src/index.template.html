@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (htmlWebpackPlugin.options.ctx.mode.cordova || htmlWebpackPlugin.options.ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>">
+    <title><%= htmlWebpackPlugin.options.productName %></title>
+
+    <link rel="icon" href="statics/icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="statics/icons/favicon-256.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="statics/icons/favicon-256.png">
+
+    <!-- keine Ahnung, wie man das sonst einbindet... -->
+    <script src='statics/UIConfig.js'></script>
+    <script src='statics/reconnecting-websocket.min.js'></script>
+    <script src='statics/d3.js'></script>
+    <script src='statics/toml.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.23.0/min/vs/loader.min.js"></script>
+  </head>
+  <body>
+    <% if (!htmlWebpackPlugin.options.ctx.mode.electron) { %>
+      <noscript>
+        This is your fallback content in case JavaScript fails to load.
+      </noscript>
+    <% } %>
+
+    <!-- DO NOT touch the following <div> -->
+    <div id="q-app"></div>
+
+    <!-- built files will be auto injected here -->
+  </body>
+</html>
